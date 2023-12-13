@@ -1,0 +1,354 @@
+body {
+	font-family: ´Oswald´, sans-serif;
+	background-color: #F2E3DB;
+}
+
+
+
+	.titulo {
+		display: flex;
+		justify-content: center;
+		background-color: #41644A;
+	  	box-shadow: 16px -16px 0px 5px #263A29;
+	  	margin: 80px 100px 0px 100px;
+	  	padding: 20px 0px 20px 0px;
+	}
+
+			.nombre {
+				margin: auto;
+				line-height: 60px;
+				background-color: transparent;
+				color:#F2E3DB;
+				font-size: 50px;
+			}
+
+			.img-perfil {
+				margin: auto;
+				width: 250px;
+				height: 250px;
+				border-radius: 100%;
+			}
+
+
+
+	.sobremi-container {
+		display: flex;
+		justify-content: center;
+		background-color: #41644A;
+	  	box-shadow: 16px -16px 0px 5px #263A29;
+	  	margin: 80px 100px 0px 100px;
+	  	flex-flow: column;
+	    padding: 20px;
+	}
+
+			.sobremi-h2 {
+				display: inline-block;
+				background-color: transparent;
+				font-size: 30px;
+				color: #E86A33;
+				margin: auto;
+			}
+
+			.sobremi-text {
+				display: inline-block;
+				background-color: transparent;
+				color: #F2E3DB;
+				font-size: 20px;
+				text-align: center;		
+			}
+
+
+
+	.habilidades {
+		display: flex;
+		justify-content: center;
+		background-color: #41644A;
+	  	box-shadow: 16px -16px 0px 5px #263A29;
+	  	margin: 80px 100px 0px 100px;
+	    padding: 20px;
+	    flex-flow: column;
+	}
+
+			.habilidades-h2 {
+				display: inline-block;
+				background-color: transparent;
+				font-size: 30px;
+				color: #E86A33;
+				margin: auto;
+			}
+
+			.habilidades-img {
+				display: flex;
+				justify-content: space-around;
+				margin: 20px 0px 10px 0px;
+			}
+
+					.html-logo {
+						width: 12%;
+						height: 12%;
+						display: inline-block;
+						margin: auto;
+					}
+
+					.css-logo {
+						width: 12%;
+						height: 12%;
+						display: inline-block;
+						margin: auto;
+					}
+
+					.js-logo {
+						background-color: transparent;
+						width: 12%;
+						height: 12%;
+						display: inline-block;
+						margin: auto;
+					}
+					.sql-logo {
+						background-color: transparent;
+						display: inline-block;
+						width: 20%;
+						height: 20%;
+						margin: auto;
+					}
+					.py-logo {
+						background-color: transparent;
+						display: inline-block;
+						width: 15%;
+						height: 15%;
+						margin: auto;
+					}
+
+				
+
+	.proyectos {
+		display: flex;
+		justify-content: center;
+		background-color: #41644A;
+	  	box-shadow: 16px -16px 0px 5px #263A29;
+	  	margin: 80px 100px 0px 100px;
+	    padding: 20px;
+	    flex-flow: column;
+		align-items: center;
+	}
+
+			.proyectos-h2 {
+				display: inline-block;
+				background-color: transparent;
+				font-size: 30px;
+				color: #E86A33;
+				margin: auto;
+			}
+
+					.proyectos-img {
+						display: flex;
+						justify-content: space-around;
+						margin: 20px 0px 10px 0px;
+						flex-wrap: wrap;
+					}
+
+							.proyectos-img > div {
+								flex: 0 0 calc(25% - 20px); 
+								margin: 0 10px; 
+								position: relative;
+							}
+					  
+									.img-clics,
+									.img-form,
+					  				.img-colores,
+					  				.img-calculadora {
+										width: 100%;
+										height: auto;
+										display: block; 
+										margin: auto;
+										border-radius: 5px;
+										object-fit: cover;
+					 				 }
+
+									.subtitulo-proyectos {
+										text-align: center;
+										margin-top: 10px;
+										color: #F2E3DB;
+										font-size: 20px;
+										text-decoration: none;
+									}
+
+
+
+	.redes {
+		display: flex;
+		justify-content: center;
+		background-color: #41644A;
+	  	box-shadow: 16px -16px 0px 5px #263A29;
+	  	margin: 80px 100px 0px 100px;
+	    padding: 20px;
+	    flex-flow: column;
+	    margin: 80px 100px 50px 100px;
+	}
+
+			.redes-h2 {
+				display: block;
+				background-color: transparent;
+				font-size: 30px;
+				color: #E86A33;
+				margin: auto;
+			}
+
+			.redes-text {
+				display: inline-block;
+				background-color: transparent;
+				color: #F2E3DB;
+				font-size: 20px;
+				text-align: center;		
+			}
+
+			.redes-iconos {
+				display: flex;
+				flex-flow: row;
+				justify-content: space-around;
+			}
+
+					.redes-instagram {
+						width: 150%;
+						height: 100%;
+					}
+
+					.redes-linkedin {
+						width: 150%;
+						height: 100%;
+					}
+
+					.redes-github {
+						width: 150%;
+						height: 100%;
+					}
+
+
+
+@media(max-width:940px) {
+
+	.titulo {
+		display: flex;
+		flex-flow: column;
+		margin: 20px 5px 0px 5px;
+		padding: 1px 1px 12px 1px;
+		box-shadow: 4px -4px 0px 1px #263A29;
+		width: 80%;
+	}
+
+		.nombre {
+			font-size: 25px;
+			line-height: 30px;
+			display: inline-block;
+			justify-content: center;
+		}
+
+		.img-perfil {
+			width: 120px;
+			height: 120px;
+			margin: auto;
+		}
+
+	
+
+	.sobremi-container {
+		padding: 1px 1px 12px 1px;
+		box-shadow: 4px -4px 0px 1px #263A29;
+		width: 80%;
+		margin: 20px 5px 0px 5px;
+	}
+
+		.sobremi-h2 {
+			font-size: 20px;
+			margin-top: 10px;
+			margin-bottom: 0px;
+		}
+
+		.sobremi-text {
+			font-size: 15px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+
+
+
+	.habilidades {
+		padding: 1px 1px 12px 1px;
+		box-shadow: 4px -4px 0px 1px #263A29;
+		margin: 20px 5px 0px 5px;
+		width: 80%;
+	}
+
+		.habilidades-h2 {
+			font-size: 20px;
+			margin-top: 10px;
+			text-align: center;
+		}
+
+		.habilidades-img {
+			flex-flow: column;
+			margin: auto;
+		}
+
+			.html-logo {
+				width: 90px;
+				margin-top: 10px;
+			}
+
+			.css-logo {
+				width: 90px;
+				margin-top: 10px;
+			}
+
+			.js-logo {
+				width: 90px;
+				margin-top: 10px;
+			}
+
+			.sql-logo {
+				width: 90px;
+				margin-top: 10px;
+			}
+
+			.py-logo {
+				width: 90px;
+				margin-top: 10px;
+			}
+
+
+
+	.redes {
+		padding: 1px 1px 12px 1px;
+		box-shadow: 4px -4px 0px 1px #263A29;
+		margin: 20px 5px 0px 5px;
+		width: 80%;
+	}
+
+		.redes-h2 {
+			font-size: 20px;
+			margin-top: 10px;
+			margin-bottom: 0px;
+		}
+
+		.redes-text {
+			font-size: 15px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+
+		.redes-iconos {
+			flex-flow: column;
+			justify-content: center;
+			margin: auto;
+		}
+
+		#general {
+			display: flex;
+			flex-flow: column;
+			align-items: center;
+		}
+
+
+	
+}
+

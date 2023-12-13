@@ -1,0 +1,11 @@
+.contenedor {
+	display: flex;
+	justify-content: center;
+}
+
+#btn {
+	width: 500px;
+	height: 300px;
+	font-size: 30px;
+	margin-top: 120px;
+}

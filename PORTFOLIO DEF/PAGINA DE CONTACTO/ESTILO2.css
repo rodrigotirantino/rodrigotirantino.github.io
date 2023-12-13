@@ -1,0 +1,145 @@
+body {
+	background-color: #C23373;
+	font-family: "Verdana", sans-serif;
+}
+
+.general {
+	background-color: #79155B;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+	padding: 0px 20px 0px 20px;
+}
+@media (max-width: 350px) {
+	.titulo {
+		font-size: 11px;
+	}
+}
+
+h1 {
+	color: #FFBA86;
+}
+
+p {
+	color: #F6635C;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+}
+
+@media (max-width: 230px) {
+	.titulo {
+		font-size: 10px;
+	}
+	.general {
+		margin: 8px;
+	}
+}
+
+
+.infopersonal {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	width: 70%;
+}
+
+[type="text"] {
+	background-color: #C23373;
+	border-radius: 30px;
+	border: none;
+	width: 100%;
+	margin: 15px 0px 0px 0px;
+	height: 30px;
+	font-family: "Verdana", sans-serif;
+}
+
+[type="mail"] {
+	background-color: #C23373;
+	border-radius: 30px;
+	border: none;
+	width: 100%;
+	margin: 15px 0px 0px 0px;
+	height: 30px;
+	font-family: "Verdana", sans-serif;
+}
+
+[type="number"] {
+	background-color: #C23373;
+	border-radius: 30px;
+	border: none;
+	width: 100%;
+	margin: 15px 0px 0px 0px;
+	height: 30px;
+	font-family: "Verdana", sans-serif;
+}
+
+::placeholder {
+	color: #FFBA86;
+}
+
+@media (min-width: 700px) {
+	[type="text"] {
+		height: 50px;
+	}
+
+	[type="mail"] {
+		height: 50px;
+	}
+	
+	[type="number"] {
+		height: 50px;
+	}
+}
+
+.general-redes {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: space-between;
+	margin: 30px 0px 30px 0px;
+}
+
+.instagram-redes {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	padding: 20px;
+}
+
+.linkedin-redes {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	padding: 20px;
+}
+
+.github-redes {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	padding: 20px;
+}
+
+@media (max-width: 500px) {
+
+	.general-redes {
+		flex-flow: column;
+		align-items: normal;
+	}
+}
+
+a {
+	margin-left: 10px;
+	color: #F6635C;
+}
